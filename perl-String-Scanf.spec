@@ -1,4 +1,3 @@
-# $revision: 1.19 $, $date: 2002/07/10 08:48:48 $
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
