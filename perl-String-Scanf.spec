@@ -8,13 +8,13 @@
 Summary:	String::Scanf - emulates the sscanf() of the C stdio library
 Summary(pl):	String::Scanf - emulacja funkcji sscanf() pochodz±cej z biblioteki C stdio
 Name:		perl-String-Scanf
-Version:	2.0
-Release:	4
+Version:	2.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b42e933532aec643c5ef71d2ab503dd7
+# Source0-md5:	6fe49bcefcf7dcc58ad9fea207277552
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
