@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	Scanf
+%define		pdir	String
+%define		pnam	Scanf
 Summary:	String::Scanf - emulates the sscanf() of the C stdio library
 Summary(pl):	String::Scanf - emulacja funkcji sscanf() pochodz±cej z biblioteki C stdio
 Name:		perl-String-Scanf
