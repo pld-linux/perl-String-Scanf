@@ -3,7 +3,7 @@ Summary:	String-Scanf perl module
 Summary(pl):	Modu³ perla String-Scanf
 Name:		perl-String-Scanf
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
