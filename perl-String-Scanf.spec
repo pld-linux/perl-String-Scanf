@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Scanf
-Summary:	String-Scanf perl module
-Summary(pl):	Modu³ perla String-Scanf
+Summary:	String::Scanf perl module
+Summary(pl):	Modu³ perla String::Scanf
 Name:		perl-String-Scanf
 Version:	1.4
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String-Scanf emulates the sscanf() of the C stdio library.
+String::Scanf emulates the sscanf() of the C stdio library.
 
 %description -l pl
-String-Scanf emuluje funkcjê sscanf() pochodz±c± z biblioteki C stdio.
+String::Scanf emuluje funkcjê sscanf() pochodz±c± z biblioteki C stdio.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
