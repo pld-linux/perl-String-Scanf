@@ -25,7 +25,7 @@ String-Scanf emuluje funkcjê sscanf() pochodz±c± z biblioteki C stdio.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
