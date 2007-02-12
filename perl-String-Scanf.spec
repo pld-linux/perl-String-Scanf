@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Scanf
 Summary:	String::Scanf - emulates the sscanf() of the C stdio library
-Summary(pl):	String::Scanf - emulacja funkcji sscanf() pochodz±cej z biblioteki C stdio
+Summary(pl.UTF-8):   String::Scanf - emulacja funkcji sscanf() pochodzÄ…cej z biblioteki C stdio
 Name:		perl-String-Scanf
 Version:	2.1
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 String::Scanf supports scanning strings for data using formats similar
 to the libc/stdio sscanf().
 
-%description -l pl
-Modu³ String::Scanf pozwala na skanowanie ³añcuchów poprzez ³añcuchy
-formatuj±ce podobne do tych u¿ywanych w funkcji sscanf() libc/stdio.
+%description -l pl.UTF-8
+ModuÅ‚ String::Scanf pozwala na skanowanie Å‚aÅ„cuchÃ³w poprzez Å‚aÅ„cuchy
+formatujÄ…ce podobne do tych uÅ¼ywanych w funkcji sscanf() libc/stdio.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
