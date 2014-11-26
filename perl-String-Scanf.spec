@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	String
 %define		pnam	Scanf
+%include	/usr/lib/rpm/macros.perl
 Summary:	String::Scanf - emulates the sscanf() of the C stdio library
 Summary(pl.UTF-8):	String::Scanf - emulacja funkcji sscanf() pochodzącej z biblioteki C stdio
 Name:		perl-String-Scanf
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6fe49bcefcf7dcc58ad9fea207277552
+URL:		http://search.cpan.org/dist/String-Scanf/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
